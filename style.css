@@ -12,7 +12,7 @@ header {
 	border:4px dashed #3366ff;
 	border-radius:15px;
 }
-p {
+.main {
 	text-align:center;
 	font-size:3em;
 }
