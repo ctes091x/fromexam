@@ -1,2 +1,2 @@
 # fromexam
-How many seconds from the next exam?
+How many seconds are left from the next exam?
