@@ -15,12 +15,23 @@ body {
 	padding:0;
 	
 	background: linear-gradient(#005bbb, #005bbb 50%, #ffd500 50%, #ffd500 100%);
-	background-attachment: fixed;
+	
+	position:relative;
 }
 
 #wrapper {
-	margin:20px;
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	margin:auto;
 	padding:10px;
+	
+	width:90%;
+	height:90%;
+	
 	background:rgba(255,255,255,0.8);
 	border-radius:20px;
 }
@@ -34,7 +45,7 @@ header {
 	font-size:3em;
 }
 .big {
-	font-size:5em;
+	font-size:15vw;
 	font-style:bold;
 }
 
