@@ -49,6 +49,10 @@ header {
 	font-style:bold;
 }
 
+.warning {
+	color:#dd0000;
+}
+
 footer {
 	text-align:right;
 }

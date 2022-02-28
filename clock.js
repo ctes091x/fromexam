@@ -5,6 +5,10 @@ function getMyDate() {
 	var examsec = Math.floor((exam - now)/1000);
 	
 	sec.innerHTML = examsec;
+	
+	if ( examsec < 100000 ) {
+		sec.classList.add('warning');
+	}
 }
 
 var evName = "学年末考査";
