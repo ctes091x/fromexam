@@ -48,6 +48,10 @@ body {
 	color:#dd0000;
 }
 
+.safe {
+	color:#00ff66;
+}
+
 footer {
 	text-align:right;
 }
