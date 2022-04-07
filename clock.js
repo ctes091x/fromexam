@@ -6,7 +6,12 @@ function getMyDate() {
 	
 	sec.innerHTML = examsec;
 	
+	if ( examsec < 100000 ) {
+		sec.classList.add('warning');
+	}
+	
 	if ( examsec < 0 ) {
+		sec.classList.remove('warning');
 		sec.classList.add('safe');
 	}
 }
