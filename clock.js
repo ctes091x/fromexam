@@ -1,6 +1,6 @@
 function getMyDate() {
 	var now = new Date();
-	var exam = new Date(2022,9-1,1,8,20);
+	var exam = new Date(2022,10-1,18,8,40);
 	
 	var examsec = Math.floor((exam - now)/1000);
 	
@@ -16,7 +16,7 @@ function getMyDate() {
 	}
 }
 
-var evName = "夏休み終了";
+var evName = "中間考査";
 inev.innerHTML = evName;
 
 setInterval(getMyDate,1000);
