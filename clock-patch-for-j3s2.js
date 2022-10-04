@@ -16,7 +16,7 @@ function getMyDate() {
 	}
 }
 
-var evName = "期末考査";
+var evName = "中間考査";
 inev.innerHTML = evName;
 
 setInterval(getMyDate,1000);
