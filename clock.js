@@ -1,6 +1,6 @@
 function getMyDate() {
 	var now = new Date();
-	var exam = new Date(2023,3-1,2,8,40);
+	var exam = new Date(2023,5-1,23,8,40);
 	
 	var examsec = Math.floor((exam - now)/1000);
 	
